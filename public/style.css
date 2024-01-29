@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    background-color: rgb(245, 242, 237);
+   
+}
+h1{
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Grape Nuts', cursive;
+font-family: 'Lugrasimo', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'VT323', monospace;
+font-family: 'Yeseva One', serif;
+text-align: center;
+margin-bottom: 10px;
+}
+#username,#pass,#con_password,#email,#age{
+    border-color: rgb(94, 90, 95);
+    border-style:solid;
+    margin-bottom: 10px;
+    width: 100%;
+}
+label{
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Grape Nuts', cursive;
+font-family: 'Lugrasimo', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'VT323', monospace;
+font-family: 'Yeseva One', serif;
+}
+button{
+    border-width: 3px;
+    border-color: rgb(94, 90, 95);
+    padding: 2px;
+    display: block;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+p{
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Grape Nuts', cursive;
+font-family: 'Lugrasimo', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'VT323', monospace;
+font-family: 'Yeseva One', serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(74, 71, 75);
+    margin-left: 5px;
+}
+button:hover{
+    transform: scale(0.75);
+}
+.form-div{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(223, 155, 155);
+}
